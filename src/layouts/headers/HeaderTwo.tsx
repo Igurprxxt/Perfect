@@ -7,7 +7,7 @@ import UseSticky from "@/hooks/UseSticky";
 import { useState } from "react";
 import HeaderSearchbar from "./menu/HeaderSearchbar";
 
-import logo_1 from "@/assets/img/WhatsApp Image 2025-06-25 at 22.02.23.jpeg";
+import logo_1 from "@/assets/img/logo.png";
 
 const HeaderTwo = () => {
   const [isActive, setIsActive] = useState<boolean>(false);
