@@ -3,7 +3,7 @@ import HomeTwo from "@/components/homes/home-two";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Iitechie - IT Solutions and Services React Next js Template",
+  title: "Home",
 };
 const index = () => {
   return (
