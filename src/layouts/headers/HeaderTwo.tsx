@@ -43,17 +43,17 @@ const HeaderTwo = () => {
           </div>
           <div className="logo d-inline-block d-lg-none">
             <Link href="/">
-              <Image src={logo_1} alt="img" />
+              <Image src={logo_1} alt="img" width={80} />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
-            <a
+            {/* <a
               onClick={() => setIsSearch(true)}
               style={{ cursor: "pointer" }}
               className="search-bar-btn"
             >
               <i className="fa fa-search"></i>
-            </a>
+            </a> */}
           </div>
           <div
             className={`collapse navbar-collapse ${isActive ? "sopen" : ""}`}
