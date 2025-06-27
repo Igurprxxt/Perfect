@@ -6,7 +6,6 @@ import SkillArea from "./SkillArea";
 import Project from "./Project";
 import FAQ from "./FAQ";
 import Counter from "./Counter";
-import PricingPlan from "./PricingPlan";
 import VideoArea from "./VideoArea";
 import WorkArea from "./WorkArea";
 import Team from "./Team";
@@ -15,6 +14,7 @@ import HeaderTwo from "@/layouts/headers/HeaderTwo";
 import Brand from "./Brand";
 import FooterOne from "@/layouts/footers/FooterOne";
 import Testimonial from "./Testimonial";
+import PricingPlan from "../home-one/PricingPlan";
 
 const HomeTwo = () => {
   return (
@@ -23,6 +23,7 @@ const HomeTwo = () => {
       <Banner />
       <IntroArea />
       <About />
+      <PricingPlan />
       <Service />
       <SkillArea />
       {/* <Project /> */}
